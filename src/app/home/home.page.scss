@@ -1,27 +1,105 @@
-#container {
+/* General Styling */
+ion-header, ion-toolbar {
+  background-color: transparent; /* Transparent background for header */
+}
+
+ion-title {
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  color: rgb(231, 130, 130);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-content {
+  background: linear-gradient(to bottom, #ff6f61, #ff8a80); /* Gradient background */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box; /* To include padding in the height */
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+/* Pomodoro Timer Container */
+.pomodoro-timer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  color: #8c8c8c;
+/* Real-time Clock */
+.real-time-clock {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: rgb(237, 255, 120);
+}
 
+/* Circular Timer */
+.timer-circle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid #020000; /* Light gray border for inactive state */
+  background: conic-gradient(#ff6262 0% 100%); /* Full circle on initial state */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  transition: background 1s ease-in-out; /* Smooth transition for progress */
+}
+
+.timer-circle p {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
   margin: 0;
 }
 
-#container a {
-  text-decoration: none;
+.timer-label {
+  display: block;
+  font-size: 1rem;
+  color: white;
+  margin-top: 5px;
+}
+
+/* Small Button */
+.small-button {
+  --background: #ff8a80;
+  --color: white;
+  --border-radius: 50px;
+  --padding: 12px 25px;  /* Adjusted padding for smaller button */
+  font-size: 1.2rem;
+  margin-top: 20px; /* Space between button and timer */
+}
+
+.small-button:hover {
+  --background: #ff6f61; /* Hover effect for button */
+}
+
+ion-button[expand="full"] {
+  width: 100%; /* Make button full width */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .timer-circle {
+    width: 200px;
+    height: 200px; /* Make the timer smaller on mobile */
+  }
+
+  .timer-circle p {
+    font-size: 2.5rem;
+  }
+
+  .timer-label {
+    font-size: 1rem;
+  }
+
+  ion-button {
+    font-size: 1rem;
+  }
 }
