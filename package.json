@@ -14,26 +14,42 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.0.0",
+<<<<<<< HEAD
     "@angular/cdk": "^19.2.14",
+=======
+>>>>>>> bee948011ec8e62f26a5772561010342777d9391
     "@angular/common": "^19.0.0",
     "@angular/compiler": "^19.0.0",
     "@angular/core": "^19.0.0",
     "@angular/forms": "^19.0.0",
+<<<<<<< HEAD
     "@angular/material": "^19.2.14",
+=======
+>>>>>>> bee948011ec8e62f26a5772561010342777d9391
     "@angular/platform-browser": "^19.0.0",
     "@angular/platform-browser-dynamic": "^19.0.0",
     "@angular/router": "^19.0.0",
     "@capacitor/android": "^7.2.0",
+<<<<<<< HEAD
     "@capacitor/app": "^7.0.1",
     "@capacitor/core": "7.2.0",
     "@capacitor/device": "^7.0.1",
     "@capacitor/haptics": "^7.0.1",
+=======
+    "@capacitor/app": "7.0.1",
+    "@capacitor/core": "7.2.0",
+    "@capacitor/haptics": "7.0.1",
+>>>>>>> bee948011ec8e62f26a5772561010342777d9391
     "@capacitor/keyboard": "7.0.1",
     "@capacitor/local-notifications": "^7.0.1",
     "@capacitor/preferences": "^7.0.1",
     "@capacitor/status-bar": "7.0.1",
     "@ionic/angular": "^8.0.0",
+<<<<<<< HEAD
     "cordova-plugin-vibration": "^3.1.1",
+=======
+    "@ionic/cli": "^7.2.1",
+>>>>>>> bee948011ec8e62f26a5772561010342777d9391
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -46,7 +62,11 @@
     "@angular-eslint/eslint-plugin-template": "^19.0.0",
     "@angular-eslint/schematics": "^19.0.0",
     "@angular-eslint/template-parser": "^19.0.0",
+<<<<<<< HEAD
     "@angular/cli": "^19.0.0",
+=======
+    "@angular/cli": "^19.2.9",
+>>>>>>> bee948011ec8e62f26a5772561010342777d9391
     "@angular/compiler-cli": "^19.0.0",
     "@angular/language-service": "^19.0.0",
     "@capacitor/cli": "7.2.0",
